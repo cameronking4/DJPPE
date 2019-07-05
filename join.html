@@ -6,22 +6,48 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
-
-    <title>Duke JPPE | Staff</title>
-
+    <title>Duke JPPE | About</title>
     <!-- Bootstrap core CSS -->
      <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
     <!-- Custom styles for this template -->
     <link href="offcanvas.css" rel="stylesheet">
   </head>
+    
+    <style> 
+        
+        .card-img-top{
+            align-content: center;
+            text-align: center;
+            border-radius: 10%;
+            width: 45%;
+        }
+            .list-group > .list-group {
+         
+          margin-bottom: 0;
+        }
+        .list-group-item:focus-within + .list-group {
+          display: block;
+        }
 
-  <body style="background-color: #fafafa">
+        .list-group > .list-group-item {
+          border-radius: 0;
+          border-width: 1px 0 0 0;
+        }
 
+        .list-group > .list-group-item:first-child {
+          border-top-width: 0;
+        }
+
+        .list-group  > .list-group > .list-group-item {
+          padding-left: 2.5rem;
+        }
+    </style>
+    
+  <body style="background-color: #fafafa;">
       <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand mb-0 h1" href="index.html">Duke Univeristy Journal</a>
+   <a class="navbar-brand mb-0 h1" href="index.html">DJPPE</a>
          <a class="navbar-brand" href="#">Philosophy </a>
          <a class="navbar-brand" href="#">Politics</a>
          <a class="navbar-brand" href="#">Economics</a>
@@ -31,72 +57,51 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul  class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a style = "color: white" class="nav-link" href="about.html">About Us</a>
+            <a style = "color: white" class="nav-link" href="team.html">About Us</a>
           </li>
           <li class="nav-item">
-            <a style = "color: white"class="nav-link" href="#">Submissions</a>
+            <a style = "color: white"class="nav-link" href="submissions.html">Submissions</a>
           </li>
           <li class="nav-item">
-            <a style = "color: white" class="nav-link" href="#">Contact</a>
+            <a style = "color: white" class="nav-link" href="contact.html">Contact</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
     <div class="container">
-
-      <div class="row row-offcanvas row-offcanvas-right">
-
-        <div class="col-6 col-md-3 sidebar-offcanvas" id="sidebar">
-          <div class="list-group">
-            <a href="about.html" class="list-group-item ">Editorial Board</a>
-            <a href="#" class="list-group-item  btn-secondary active">Teams</a>
-            <a href="#" class="list-group-item">Advisory Board</a>
-            <a href="#" class="list-group-item">FAQs</a>
-            <a href="#" class="list-group-item">Join Us!</a>
-            <a href="#" class="list-group-item">Contact</a>
-<!--        <a href="#" class="list-group-item">Link</a>
-            <a href="#" class="list-group-item">Link</a>
-            <a href="#" class="list-group-item">Link</a>
-            <a href="#" class="list-group-item">Link</a>
-            <a href="#" class="list-group-item">Link</a>
--->
-          </div>
-        </div><!--/span-->
-        <div class="col-12 col-md-9">
-          <div class="jumbotron">
-            <h1 style="text-align:center">Team Members</h1>
-<!--            <p>This is an example to show the potential of an offcanvas layout pattern in Bootstrap. Try some responsive-range viewport sizes to see it in action.</p>-->
-          </div>
-        <div class="row">
-              <div class="col-6 col-lg-4">
-            <center>
-                <h4>Team </h4>
-                <h2>Olivia Kramer</h2>
-            </center>
-            </div><!--/span-->
-            <div class="col-6 col-lg-4">
-            <center>
-                 <h4>Team </h4>
-                <h2>Olivia Kramer</h2>
-            </center>
-            </div><!--/span-->
-              <div class="col-6 col-lg-4">
-            <center>
-                <h4>Team </h4>
-                <h2>Olivia Kramer</h2>
-            </center>
-            </div><!--/span--> 
+      <div class="row">
+        <div class="col-6 col-md-3 " id="sidebar">
+            <a href="about.html" class="  list-group-item ">About Us</a>
+            <div class="list-group ">
+              <a href="" class="list-group-item">Team</a>
+              <div class="list-group">
+                <a href="team.html#board1" class="list-group-item">Editorial Board</a>
+                <a href="team.html#content" class="list-group-item">Content Teams</a>
+                <a href="advisory.html" class="list-group-item">Advisory Board</a>
+              </div>
             </div>
-        </div>
-        </div>
-      </div><!--/row-->
+            <a href="#" class="list-group-item">FAQs</a>
+            <a href="join.html" class="list-group-item active btn-secondary">Join Us!</a>
+          </div>
+        
+        <div class="col-12 col-md-9" id="board1">
+          <div class="jumbotron" style="padding: 10px">
+            <center>
+              <h4> Join JPPE!</h4>
+              <h1>The Duke University Journal of Philosophy, Politics & Economics (JPPE) is not currently accepting staff applications. </h1>
+<p> Please check back soon!</p>
+            </center>
+          </div>  
        
-     
+            <div style="padding:330px;"></div>
+      </div>
+    </div>
+   </div>
   <!-- Footer -->
-  <footer style="position: fixed; width: 100%; bottom:0;"class="py-3 bg-dark">
+  <footer style="position: relative; width: 100%; bottom:0;"class="py-3 bg-dark">
     <div class="container">
-     <p class="m-0 text-center text-white">Copyright &copy; 2019 | Duke University Journal of Philosophy, Political Science & Economics | All Rights Reserved </p>
+      <p class="m-0 text-center text-white">Copyright &copy; 2019 | Duke University Journal of Philosophy, Political Science & Economics | All Rights Reserved </p>
     </div>
     <!-- /.container -->
   </footer>
