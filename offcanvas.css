@@ -5,7 +5,7 @@
 html,
 body {
   overflow-x: hidden; /* Prevent scroll on narrow devices */
-    font-family: "Times New Roman", Times, serif;
+   
 }
 body {
   padding-top: 70px;
@@ -17,6 +17,12 @@ footer {
 .list-group-item{
         color: #474747
     }
+ .card {
+            background-color: rgba(0,0,0,0)
+        }
+ .duke {
+            background-color: #121258;
+        }
 
 /*
  * Off Canvas
