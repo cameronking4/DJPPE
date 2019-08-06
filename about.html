@@ -32,26 +32,28 @@
 
   <body style="background-color: #fafafa;">
       <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark duke fixed-top">
+      <nav class="navbar navbar-nav navbar-expand-lg  duke fixed-top">
     <div class="container">
-   <img width="5%" src="assets/ppe2.png" style="padding-right: 20px;">
-        <a class="navbar-brand" href="index.html">Home</a>
-        <a class="navbar-brand" href="#">Philosophy </a>
-         <a class="navbar-brand" href="#">Politics</a>
-         <a class="navbar-brand" href="#">Economics</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <div> 
+         <a href="index.html"><span> <img src="assets/ppe2.png" id="img"></span></a>
+            <span style="padding-right: 15px;"></span>
+          <a class="navbar-brand navbar-dark" href="#">Philosophy </a>
+         <a class="navbar-brand navbar-dark " href="#">Politics</a>
+         <a class="navbar-brand navbar-dark " href="#">Economics</a>
+      <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+            </div>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul  class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a style = "color: white" class="nav-link" href="team.html">About Us</a>
+          <li class="nav-item hoover">
+            <a  class="nav-link navbar-dark" href="about.html">About Us</a>
           </li>
           <li class="nav-item">
-            <a style = "color: white"class="nav-link" href="submissions.html">Submissions</a>
+            <a class="nav-link navbar-dark" href="submissions.html">Submissions</a>
           </li>
           <li class="nav-item">
-            <a style = "color: white" class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link navbar-dark" href="contact.html">Contact</a>
           </li>
         </ul>
       </div>
@@ -70,17 +72,16 @@
           </div>
         
         <div class="col-12 col-md-9" id="board1">
-          <div class="" style="padding: 10px">
             <center>
                 <hr class="bars" width= 300px;>
               <h1>Our Mission</h1>
                 <hr class="bars" width= 300px;>
                 <br>
-              <p style="text-align: left; padding: 20px; font-size: 20px;">The Duke University Journal of Philosophy, Politics, and Economics is a peer-reviewed, online journal publishing works of philosophy, politics, and economics by undergraduate and graduate students from around the world. Sponsored by the Duke PPE Certificate program, the Duke JPPE hopes to publish original scholarship that offers a cross-disciplinary perspective. In keeping with the goal of the PPE discipline, this publication will feature a wide-range of important issues and highlight the dynamic relationship between the political, economic, and philosophical orders. </p>
+              <p class="jumbotron" style="text-align: center; padding: 20px; font-size: 18px;">The Duke University Journal of Philosophy, Politics, and Economics is a peer-reviewed, online journal publishing works of philosophy, politics, and economics by undergraduate and graduate students from around the world. Sponsored by the Duke PPE Certificate program, the Duke JPPE hopes to publish original scholarship that offers a cross-disciplinary perspective. In keeping with the goal of the PPE discipline, this publication will feature a wide-range of important issues and highlight the dynamic relationship between the political, economic, and philosophical orders. </p>
             </center>
           </div>  
        
-            <div style="padding:110px;"></div>
+            <div style="padding:90px;"></div>
       </div>
     </div>
    </div>
@@ -102,5 +103,7 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
     <script src="offcanvas.js"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

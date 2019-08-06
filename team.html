@@ -33,26 +33,28 @@
     
   <body style="background-color: #fafafa;">
       <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark duke fixed-top">
+       <nav class="navbar navbar-nav navbar-expand-lg  duke fixed-top">
     <div class="container">
-  <img width="5%" src="assets/ppe2.png" style="padding-right: 20px;">
-        <a class="navbar-brand" href="index.html">Home</a>
-        <a class="navbar-brand" href="#">Philosophy </a>
-         <a class="navbar-brand" href="#">Politics</a>
-         <a class="navbar-brand" href="#">Economics</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <div> 
+         <a href="index.html"><span> <img src="assets/ppe2.png" id="img"></span></a>
+            <span style="padding-right: 15px;"></span>
+          <a class="navbar-brand navbar-dark" href="#">Philosophy </a>
+         <a class="navbar-brand navbar-dark " href="#">Politics</a>
+         <a class="navbar-brand navbar-dark " href="#">Economics</a>
+      <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+            </div>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul  class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a style = "color: white" class="nav-link" href="about.html">About Us</a>
+          <li class="nav-item hoover">
+            <a  class="nav-link navbar-dark" href="about.html">About Us</a>
           </li>
           <li class="nav-item">
-            <a style = "color: white"class="nav-link" href="submissions.html">Submissions</a>
+            <a class="nav-link navbar-dark" href="submissions.html">Submissions</a>
           </li>
           <li class="nav-item">
-            <a style = "color: white" class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link navbar-dark" href="contact.html">Contact</a>
           </li>
         </ul>
       </div>
@@ -110,22 +112,33 @@
     </div>
          
       <div class="card">
-          <center><img class="card-img-top" src="assets/Headshots/LG.png" alt="Card image cap"></center>
+          <center><img class="card-img-top" src="assets/Headshots/LS.jpg" alt="Card image cap"></center>
         <div class="card-body">
            <center>
-            <h6>Lucas Gonzalez-Pagliere</h6>
-            <h5><strong>Philosophy Director</strong></h5>
+            <h6>Luisa Stalman</h6>
+            <h5><strong>Content Director</strong></h5>
             </center>
-          <p style="text-align: center"><i>Philosophy ‘21</i></p>
+          <p style="text-align: center"><i>Political Science and History ‘21</i></p>
         </div>
     </div>
  </div>
             <br>
 
-            <div class="card-deck"> 
-        
+<div class="card-deck"> 
+                
+        <div class="card">
+          <center><img class="card-img-top" src="assets/Headshots/LG.png" alt="Card image cap"></center>
+        <div class="card-body">
+           <center>
+            <h5>Lucas Gonzalez-Pagliere</h5>
+            <h5><strong>Philosophy Director</strong></h5>
+            </center>
+          <p style="text-align: center"><i>Philosophy ‘21</i></p>
+        </div>
+        </div>
+            
       <div class="card">
-          <center><img class="card-img-top" src="assets/ppe.png" alt="Card image cap"></center>
+          <center><img class="card-img-top" src="assets/Headshots/SY.jpg" alt="Card image cap" height= "100%"></center>
         <div class="card-body">
            <center>
             <h5>Susan Yun</h5>
@@ -136,7 +149,7 @@
     </div>
           
       <div class="card">
-          <center><img class="card-img-top" src="assets/Headshots/OD.jpg" alt="Card image cap" heigh= "30%"></center>
+          <center><img class="card-img-top" src="assets/Headshots/OD.jpg" alt="Card image cap" height= "30%"></center>
         <div class="card-body">
                <center>
                 <h5>Olivia de Gaudemar</h5>
@@ -157,6 +170,7 @@
             </div>
         </div>
     </div>
+            
         
     <div id="content">
         <br>
@@ -310,5 +324,7 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
     <script src="offcanvas.js"></script>
+      <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

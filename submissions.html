@@ -32,26 +32,28 @@
 
   <body style="background-color: #fafafa;">
       <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark duke fixed-top">
+       <nav class="navbar navbar-nav navbar-expand-lg  duke fixed-top">
     <div class="container">
-      <img width="5%" onclick="index.html" src="assets/ppe2.png" style="padding-right: 20px;">
-        <a class="navbar-brand" href="index.html">Home</a>
-        <a class="navbar-brand" href="#">Philosophy </a>
-         <a class="navbar-brand" href="#">Politics</a>
-         <a class="navbar-brand" href="#">Economics</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <div> 
+         <a href="index.html"><span> <img src="assets/ppe2.png" id="img"></span></a>
+            <span style="padding-right: 15px;"></span>
+          <a class="navbar-brand navbar-dark" href="#">Philosophy </a>
+         <a class="navbar-brand navbar-dark " href="#">Politics</a>
+         <a class="navbar-brand navbar-dark " href="#">Economics</a>
+      <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+            </div>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul  class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a style = "color: white" class="nav-link" href="about.html">About Us</a>
+          <li class="nav-item hoover">
+            <a  class="nav-link navbar-dark" href="about.html">About Us</a>
           </li>
           <li class="nav-item">
-            <a style = "color: white"class="nav-link" href="submissions.html">Submissions</a>
+            <a class="nav-link navbar-dark" href="submissions.html">Submissions</a>
           </li>
           <li class="nav-item">
-            <a style = "color: white" class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link navbar-dark" href="contact.html">Contact</a>
           </li>
         </ul>
       </div>
@@ -76,7 +78,7 @@
             <hr class="bars"> 
             </center>
           <div class="jumbotron" style="padding: 10px">
-            <br>
+            
 <p> Founded in 2019, the Duke University Journal of Philosophy, Politics, and Economics is an interdisciplinary publication providing a forum for young scholars to contribute to academic conversations in philosophy, politics, and economics. The DJPPE Editorial Board is seeking well written, original scholarship to publish in our biannual publication. Undergraduate and graduate students are encouraged to submit their work, such as research papers, theses, PhD summaries, articles, and literature reviews, for review. We welcome work previously written for classroom, though it is mandatory that all submissions be free of your university’s name. </p>
                 <p>Students from all academic backgrounds are encouraged to submit their works, as long as they are relevant to the aforementioned fields. </p>
            
@@ -110,7 +112,7 @@ The DJPPE is currently accepting submission for our inaugural issue, publishing 
 <strong>Contact Email: dukejppe@gmail.com</strong>
               <br><br><br>
               <p>Please submit your manuscripts through this form:
-                  <a class=" btn btn-secondary" href="https://forms.gle/sCugLsKagKJeDG7B7"> Submit</a></p>
+                  <a class=" btn btn-secondary" href="https://forms.gle/sCugLsKagKJeDG7B7" target="_blank"> Submit</a></p>
           </div>  
       </div>
     </div>
@@ -133,5 +135,7 @@ The DJPPE is currently accepting submission for our inaugural issue, publishing 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
     <script src="offcanvas.js"></script>
+      <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

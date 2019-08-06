@@ -30,58 +30,30 @@
     <link href="offcanvas.css" rel="stylesheet">
   </head>
     
-    <style> 
-        
-        .card-img-top{
-            align-content: center;
-            text-align: center;
-            border-radius: 10%;
-            width: 45%;
-        }
-            .list-group > .list-group {
-         
-          margin-bottom: 0;
-        }
-        .list-group-item:focus-within + .list-group {
-          display: block;
-        }
-
-        .list-group > .list-group-item {
-          border-radius: 0;
-          border-width: 1px 0 0 0;
-        }
-
-        .list-group > .list-group-item:first-child {
-          border-top-width: 0;
-        }
-
-        .list-group  > .list-group > .list-group-item {
-          padding-left: 2.5rem;
-        }
-    </style>
-    
   <body style="background-color: #fafafa;">
       <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark duke fixed-top">
+           <nav class="navbar navbar-nav navbar-expand-lg duke fixed-top">
     <div class="container">
-   <img width="5%" src="assets/ppe2.png" style="padding-right: 20px;">
-        <a class="navbar-brand" href="index.html">Home</a>
-        <a class="navbar-brand" href="#">Philosophy </a>
-         <a class="navbar-brand" href="#">Politics</a>
-         <a class="navbar-brand" href="#">Economics</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <div> 
+         <a href="index.html"><span> <img src="assets/ppe2.png" id="img"></span></a>
+            <span style="padding-right: 15px;"></span>
+          <a class="navbar-brand navbar-dark" href="#">Philosophy </a>
+         <a class="navbar-brand navbar-dark " href="#">Politics</a>
+         <a class="navbar-brand navbar-dark " href="#">Economics</a>
+      <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+            </div>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul  class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a style = "color: white" class="nav-link" href="team.html">About Us</a>
+          <li class="nav-item hoover">
+            <a  class="nav-link navbar-dark" href="about.html">About Us</a>
           </li>
           <li class="nav-item">
-            <a style = "color: white"class="nav-link" href="submissions.html">Submissions</a>
+            <a class="nav-link navbar-dark" href="submissions.html">Submissions</a>
           </li>
           <li class="nav-item">
-            <a style = "color: white" class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link navbar-dark" href="contact.html">Contact</a>
           </li>
         </ul>
       </div>
@@ -100,11 +72,12 @@
           </div>
         
         <div class="col-12 col-md-9" id="board1">
-          <div class="jumbotron" style="padding: 10px">
             <center>
-              <h2> Join DJPPE!</h2>
+                <hr class="bars" width= 300px;>
+              <h1>Join DJPPE</h1>
+                <hr class="bars" width= 300px;>
                 <br>
-              <h1>The Duke University Journal of Philosophy, Politics & Economics (JPPE) is not currently accepting staff applications. </h1>
+              <p class="jumbotron">The Duke University Journal of Philosophy, Politics & Economics (JPPE) is not currently accepting staff applications for our Spring 2020 issue. Please check back soon to learn about the application process for our Fall 2020 issue </p>
                 <br>
                 <br>
 <h3> Please check back soon!</h3>
@@ -114,7 +87,8 @@
             <div style="padding:80px;"></div>
       </div>
     </div>
-   </div>
+
+     <div style="padding: 10px">
   <!-- Footer -->
   <footer style="position: relative; width: 100%; bottom:0;"class="py-3 duke">
     <div class="container">
@@ -122,6 +96,7 @@
     </div>
     <!-- /.container -->
   </footer>
+      </div>
       
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -133,5 +108,7 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
     <script src="offcanvas.js"></script>
+      <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

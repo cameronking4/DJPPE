@@ -33,7 +33,7 @@ footer {
             background-color: rgba(0,0,0,0)
         }
  .duke {
-            background-color: #121258;
+            background-color: #223e87;
         }
 
 h1{
@@ -50,7 +50,7 @@ h3{
     font-size: 30px;
 }
 
-.navbar, navbar-brand, nav-link{
+.navbar,navbar-brand,nav-link{
     font-family: din-condensed-light, sans-serif;
     font-style: normal;
     font-size: 20px;
@@ -59,14 +59,42 @@ h3{
     margin-bottom: 20px;
 }
 
+
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: black;
+}
+
+.navbar-brand{
+    color: rgba(255, 255, 255, 0.76);
+}
+
+.navbar-brand:hover{
+    color: rgba(255, 255, 255, 0.85);
+}
 .navbar a{
     text-transform: uppercase;
     font-family: "HelveticaNeue-CondensedBold";
 }
 
+.navbar #img{
+    width: 6%;
+}
+
+@media screen and (max-width: 996px) {
+    .navbar #img{
+   display: none;
+}
+
+    
+}
+
 #sidebar a{
     text-transform: uppercase;
 }
+
 
         .card{
             border: none;
@@ -106,6 +134,16 @@ h3{
  * --------------------------------------------------
  */
 @media screen and (max-width: 767px) {
+    
+    .navbar #img{
+        width= 100%;
+    }
+        
+    #sidebar {
+        position: relative;
+        display:contents;
+        width: 100%
+    }
   .row-offcanvas {
     position: relative;
     -webkit-transition: all .25s ease-out;
@@ -150,8 +188,10 @@ h3{
   }
 
   .sidebar-offcanvas {
-    position: absolute;
+    position: relative;
     top: 0;
-    width: 50%; /* 6 columns */
+    width: 20%; /* 6 columns */
   }
+    
+   
 }
