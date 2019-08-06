@@ -70,11 +70,11 @@ h3{
 }
 
 .navbar-brand{
-    color: rgba(255, 255, 255, 0.76);
+    color: rgba(255, 255, 255, 0.9);
 }
 
 .navbar-brand:hover{
-    color: rgba(255, 255, 255, 0.85);
+    color: rgba(255, 255, 255, 0.9);
 }
 .navbar a{
     text-transform: uppercase;
