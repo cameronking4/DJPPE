@@ -4192,16 +4192,18 @@ input[type="button"].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  padding: 20px;
 }
 
 .navbar-nav .nav-link {
   padding-right: 0;
-  padding-left: 0;
+  
 }
 
 .navbar-nav .dropdown-menu {
   position: static;
   float: none;
+padding: 20px;
 }
 
 .navbar-text {
@@ -4350,7 +4352,7 @@ input[type="button"].btn-block {
   }
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 0.5rem;
-    padding-left: 0.5rem;
+    padding-left: 2;
   }
   .navbar-expand-lg > .container,
   .navbar-expand-lg > .container-fluid {
