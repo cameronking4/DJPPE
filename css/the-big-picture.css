@@ -7,21 +7,37 @@
 
 
 body {
+    
+    background-color:#fdfdfd;
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,207cca+67,7db9e8+100 */
-background: #1e5799 no-repeat center center fixed;; /* Old browsers */
-background: -moz-linear-gradient(top,  #1d71d3 0%, #207cca 67%, #7db9e8 100%) no-repeat center center fixed;; /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #1d71d3 0%,#207cca 67%,#7db9e8 100%) no-repeat center center fixed;; /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #1d71d3 0%,#207cca 67%,#7db9e8 100%) no-repeat center center fixed;; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+/*background: #1e5799 no-repeat center center fixed;;  Old browsers */
+/*background: -moz-linear-gradient(top,  #1d71d3 0%, #207cca 67%, #7db9e8 100%) no-repeat center center fixed;;  FF3.6-15 */
+/*background: -webkit-linear-gradient(top,  #1d71d3 0%,#207cca 67%,#7db9e8 100%) no-repeat center center fixed;;  Chrome10-25,Safari5.1-6 */
+/*background: linear-gradient(to bottom,  #1d71d3 0%,#207cca 67%,#7db9e8 100%) no-repeat center center fixed;;  W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+/*
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 );  IE6-9 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+*/
 }
 
 
-h1 { font-family: Lato; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: Lato; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: Lato; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Lato; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Lato; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
+.homepage{
+    font-family: "HelveticaNeue-CondensedBold";
+    font-size: 45px;
+    
+}
 
+.logoBlue{
+    background: #223e87;
+}
+
+.home{
+     color: #223e87;
+    background-color: #fdfdfd;
+}
 
 .sidenav {
   width: 130px;

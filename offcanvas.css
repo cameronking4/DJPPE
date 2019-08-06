@@ -9,20 +9,97 @@ body {
 }
 body {
   padding-top: 70px;
+    
+}
+h4, h5, h6, p, li{
+  font-family: Georgia, Times, "Georgia", serif; ;
+}
+
+
+.bars{
+    border-width: medium;
+    background-color: black;
 }
 footer {
   padding: 10px 0;
 }
 
 .list-group-item{
-        color: #474747
-    }
+    color: #474747;
+    font-family: "HelveticaNeue-CondensedBold";
+    font-size: 20px;
+}
  .card {
             background-color: rgba(0,0,0,0)
         }
  .duke {
             background-color: #121258;
         }
+
+h1{
+    font-family: "HelveticaNeue-CondensedBold";
+    font-size: 45px;
+}
+
+h2{
+    font-family: "HelveticaNeue-CondensedBold";
+    font-size: 30px;
+}
+h3{
+    font-family: "HelveticaNeue-CondensedBold";
+    font-size: 30px;
+}
+
+.navbar, navbar-brand, nav-link{
+    font-family: din-condensed-light, sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 45px;
+    margin-bottom: 20px;
+}
+
+.navbar a{
+    text-transform: uppercase;
+    font-family: "HelveticaNeue-CondensedBold";
+}
+
+#sidebar a{
+    text-transform: uppercase;
+}
+
+        .card{
+            border: none;
+        }
+        .card-img-top{
+            align-content: center;
+            text-align: center;
+            width: 100%;
+            height: 200;
+            overflow: hidden;
+        }
+            .list-group > .list-group {
+         
+          margin-bottom: 0;
+        }
+        .list-group-item:focus-within + .list-group {
+          display: block;
+        }
+
+        .list-group > .list-group-item {
+          border-radius: 0;
+          border-width: 1px 0 0 0;
+        }
+
+        .list-group > .list-group-item:first-child {
+          border-top-width: 0;
+        }
+
+        .list-group  > .list-group > .list-group-item {
+          padding-left: 2.5rem;
+        }
+
+
 
 /*
  * Off Canvas
